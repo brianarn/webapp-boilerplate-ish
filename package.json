@@ -1,5 +1,5 @@
 {
-  "name": "webpack-react-grunt-intern-boilerplate",
+  "name": "webpack-boilerplate-ish",
   "version": "0.0.1",
   "description": "Learning and stuff",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianarn/webpack-react-grunt-intern-boilerplate.git"
+    "url": "https://github.com/brianarn/webpack-boilerplate-ish.git"
   },
   "author": "Brian Sinclair",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianarn/webpack-react-grunt-intern-boilerplate/issues"
+    "url": "https://github.com/brianarn/webpack-boilerplate-ish/issues"
   },
-  "homepage": "https://github.com/brianarn/webpack-react-grunt-intern-boilerplate",
+  "homepage": "https://github.com/brianarn/webpack-boilerplate-ish",
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
