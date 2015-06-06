@@ -19,7 +19,9 @@ I could probably just use the webpack dev server, in some way, especially since 
 ## Modules in use
 
 - hapi - for my server/apis/whatever
+- react - because why not
 - webpack - for building out the client code, so I can happily modularize things
+  - jsx-loader - to load all the .jsx files
 - socket.io - so I can do realtime communication things
 - grunt - to manage all the things
   - grunt-contrib-watch - to re-run build processes or restart servers as appropriate
