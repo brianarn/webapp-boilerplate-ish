@@ -14,7 +14,7 @@ module.exports = function (grunt) {
 
     watch: {
       webpack: {
-        files: ['lib/client/**/*.js'],
+        files: ['lib/client/**/*.js', 'lib/client/**/*.jsx'],
         tasks: ['webpack']
       },
       hapi: {
