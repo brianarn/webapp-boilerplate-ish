@@ -8,10 +8,17 @@ var bootstrap = require('bootstrap/dist/css/bootstrap.css');
 var React = require('react');
 
 var App = React.createClass({
+  getInitialState: function () {
+    return {
+      title: 'Webpack Boilerplate',
+      timestamp: (new Date()).toString()
+    };
+  },
   render: function () {
     return (
-      <div>
-        <h1>This is the main app view</h1>
+      <div class="container">
+        <h1>{this.state.title}</h1>
+        <p>Time: {this.state.time}</p>
       </div>
     );
   }

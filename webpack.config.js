@@ -1,5 +1,6 @@
 module.exports = {
   app: {
+    cache: true,
     entry: './lib/client/index.jsx',
     output: {
       path: __dirname + '/public/assets',
